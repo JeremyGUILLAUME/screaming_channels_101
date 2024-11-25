@@ -1,0 +1,11 @@
+{
+    "collection" : {
+        "data_directory" : "/home/user/Documents/DATA/ExtractPattern/",
+        "time_div" : 1000,
+        "USRP_address" : "",
+        "sampling_rate" : 5e6,
+        "target_freq" : 2.528e9,
+        "implementation" : "S",
+        "CP_length" : 894.416e-6,
+        "pattern_name" : "pattern"
+}	}

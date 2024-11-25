@@ -1,0 +1,24 @@
+{
+    "collection" : {
+        "data_directory" : "/home/user/Documents/DATA/Demo_MultiFreqs/",
+        "dataset_name" : "attack",
+        "data_input" : "R",
+        "nb_traces" : 1000,
+        "time_div" : 10,
+        "USRP_address" : ["192.168.10.114", "192.168.10.105"],
+        "sampling_rate" : 5e6,
+        "target_freqs" : [2.528e9, 2.592e9],
+        "implementation" : "S",
+        "CP_length" : 894.416e-6,
+        "pattern_name" : ["", ""]
+        },
+
+    "analysis": {
+        "profile_name" : "",
+        "variable" : "p_xor_k",
+        "nb_attacks" : 1,
+        "res_nb_traces"	 : 50,
+        "cutoff"   : 550e3,
+        "SOI_start" : 0,
+        "SOI_stop" : null
+}	}
