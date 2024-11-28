@@ -63,13 +63,13 @@ if int(args.step) == 2:
 
 
 if int(args.step) == 3:
-    trace = extraction.extract_trace(rawTrace, signal_length=CP_length, extract_method="virtual_trigger", sampling_rate=sampling_rate, time_div=1000)
+    trace = extraction.extract_trace(rawTrace, signal_length=CP_length, extract_method="virtual_trigger", sampling_rate=sampling_rate, time_div=time_div)
     plt.plot(trace)
     plt.show()
 
 
 if int(args.step) == 4:
-    trace = extraction.extract_trace(rawTrace, signal_length=CP_length, extract_method="virtual_trigger", sampling_rate=sampling_rate, time_div=1000)
+    trace = extraction.extract_trace(rawTrace, signal_length=CP_length, extract_method="virtual_trigger", sampling_rate=sampling_rate, time_div=time_div)
     trace = preprocess.shift_trace(trace, int(args.shift))
     np.save(data_directory+"PATTERNs/"+pattern_name+".npy", trace)
     plt.plot(trace)
