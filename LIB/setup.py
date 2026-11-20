@@ -21,7 +21,8 @@ setup(
         'matplotlib',
         'scipy',
         'pycrypto',
-        'pycryptodome'
+        'pycryptodome',
+        'click'
     ],
     python_requires='~=3.8',
 )
